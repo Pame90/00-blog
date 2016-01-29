@@ -79,3 +79,40 @@ footer{
 .ch{
     padding-left: 25px;     
 }
+@media only screen and (max-width:768px){
+  
+    section{
+        width: 88%;
+    }
+    aside{
+       display: none;
+    }
+    .nav ul li{
+        margin-left: -8px;
+    }
+   
+}
+
+@media only screen and (min-width:481px) and (max-width:720px){
+  
+    aside{
+        display: none;
+    }
+    
+    section{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width:721px) and (max-width:1220px){
+     
+    section{
+        width: 93%;
+    }
+    
+    aside{
+        display: none;
+    }
+    
+}
